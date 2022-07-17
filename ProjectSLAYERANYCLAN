@@ -1,0 +1,11 @@
+local X;
+X = hookmetamethod(game, "__namecall", function(self, ...)
+   if getnamecallmethod() == "IsClient" then
+       return false
+   elseif getnamecallmethod() == "IsServer" then
+       return true
+   end
+   return X(self, ...)
+end)
+
+game.ReplicatedStorage.Player_Data.YOURUSERNAMEHERE.Clan.Value = "Kamado"
