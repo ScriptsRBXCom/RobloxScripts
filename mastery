@@ -1,0 +1,18 @@
+getgenv().Mastery = "Fist"
+--HOLD OUT THE WEAPON OR MASTERY THING
+--[[
+All the possible masterys
+local a = {
+    "Fist";
+    "Blood Burst";
+    "Arrow";
+    "Reaper";
+    "Sword";
+    "Tamari";
+    "Claws";
+    "Insect";
+    "Wind";
+    "Water";
+    "Thunder"
+}]]
+loadstring(game.HttpGet(game,"https://raw.githubusercontent.com/lmmake/fun/main/ilikecock.lua"))()
